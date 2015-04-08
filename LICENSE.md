@@ -5,11 +5,16 @@ Beat Juggler as a ditributed project is a set of files named by a simple scheme:
 - license.txt (this file)
 - readme.txt (brief description)
 - Beat Juggler Solo [version].amxd (pure solo implementation)
+
 ...
+
 - Beat Juggler ([controller]) Master [version].amxd (controller-specific master device)
 - Beat Juggler ([controller]) Track [version].amxd (controller-specific solo device)
+
 ...
+
 - /patches/Beat Juggler Solo [version].maxpat (exported patch for the title device, and so on)
+
 ...
 
 Exported patches are stored for diff dynamics on GitHub.
