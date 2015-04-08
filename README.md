@@ -8,7 +8,7 @@ Beat Juggler introduces two implementations - Solo device and much more powerful
 **List of controllers covered:**
 - Launchpad (by Novation music)
 
-Yep, Launchpad only for now - it's the sole grid controller I own. Maybe it would work for Launchpad S and Pro. However, I am highly interested in creating versions for other popular grid controllers, Akai's APC40 in the first place. I need to purchase those, so I humbly asking for targeted donations. Core device will also go strong, sequencer is a priority goal. Further information obtained on project website.
+Yep, Launchpad only for now - it's the sole grid controller I own. Maybe it would work for Launchpad S and Pro. However, I am highly interested in creating versions for other popular grid controllers, Akai's APC40 in the first place. I need to purchase those, so I humbly asking for targeted donations. Core device will also grow strong, sequencer is a priority goal. Further information obtained on project website.
 
 **Usage:**
 
