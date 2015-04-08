@@ -18,16 +18,16 @@ Or simply double-click those fancy .amxd files, press buttons with question mark
 
 Beat Juggler was inspired by following great projects:
 
-- BeatLookUp (by Chris "CList" List): http://www.semaforte.com/reaktor/about.htm  
+- **BeatLookUp** (by Chris "CList" List): http://www.semaforte.com/reaktor/about.htm  
 Actually, I've never touched it. Once I had seen Moldover used it in his setup: http://www.youtube.com/watch?v=L2McDeSKiOU - and I become bent on embedding similar plugin in my own Ableton setup.
 
-- mlr (by tehn): http://monome.org/docs/app:mlr  
+- **mlr** (by tehn): http://monome.org/docs/app:mlr  
 It's a role model. No comments. Never used, tried once along with mlrv.
 
-- Beat Indexer (by Shane Hazleton): http://www.maxforlive.com/library/device/880/beat-indexer-by-shane-hazleton-akai-professional  
+- **Beat Indexer** (by Shane Hazleton): http://www.maxforlive.com/library/device/880/beat-indexer-by-shane-hazleton-akai-professional  
 Similar project where I've discovered brilliant idea of master/slave devices break-up. Also, I've used same words for juggling mode paramater as Shane did (momentary/latched). 
 
-Project website:  
+**Project website:**  
 http://empytree.com/projects/beatjuggler  
 https://github.com/empytree/beatjuggler
 
