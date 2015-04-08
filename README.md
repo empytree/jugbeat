@@ -13,7 +13,9 @@ Yep, Launchpad only for now - it's the sole grid controller I own. Maybe it woul
 **Usage:**
 
 Solo version: drag file *Beat Juggler Solo 1.0b.amxd* over any track in Ableton.
+
 Launchpad version: drag files *Beat Juggler (LP) Track 1.0b.amxd* onto tracks in Ableton, put *Beat Juggler (LP) Master 1.0b.amxd* on master track.
+
 Or simply double-click those fancy .amxd files, press buttons with question marks and be happy.
 
 Beat Juggler was inspired by following great projects:
