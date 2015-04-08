@@ -35,5 +35,5 @@ https://github.com/empytree/beatjuggler
 
 Written in Max 5.1.9, tested in Ableton Live 8.2.5. Breifly tested in Max 7.0.3 and Live 9.1.7. Current version is 1.0 beta. Please, report bugs as GitHub issues, or write me via credentials specified in license.txt file.
 
-Copyright 2015 Sergey Parfenov (aka Empytree)
+Copyright 2015 Sergey Parfenov (aka Empytree)  
 All trademarks are property of their respective owners.
