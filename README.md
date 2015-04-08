@@ -6,7 +6,7 @@ Beat Juggler is a looper Max for Live device built around beat manipulating idea
 Beat Juggler introduces two implementations - Solo device and much more powerful Controller versions (featuring Master device that conducts an orchestra of controller-specific track devices).
 
 **List of controllers covered:**
-- Launchpad (by Novation music)
+- Launchpad (by Novation)
 
 Yep, Launchpad only for now - it's the sole grid controller I own. Maybe it would work for Launchpad S and Pro. However, I am highly interested in creating versions for other popular grid controllers, Akai's APC40 in the first place. I need to purchase those, so I humbly asking for targeted donations. Core device will also grow strong, sequencer is a priority goal. Further information obtained on project website.
 
@@ -36,3 +36,4 @@ https://github.com/empytree/beatjuggler
 Written in Max 5.1.9, tested in Ableton Live 8.2.5. Breifly tested in Max 7.0.3 and Live 9.1.7. Current version is 1.0 beta. Please, report bugs as GitHub issues, or write me via credentials specified in license.txt file.
 
 Copyright 2015 Sergey Parfenov (aka Empytree)
+All trademarks are property of their respective owners.
