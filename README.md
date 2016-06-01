@@ -12,9 +12,9 @@ Yep, Launchpad only for now - it's the sole grid controller I own. Maybe it woul
 
 **Usage:**
 
-Solo version: drag file *Beat Juggler Solo 1.0b.amxd* over any track in Ableton.
+Solo version: drag file *Beat Juggler Solo 1.1b.amxd* over any track in Ableton.
 
-Launchpad version: drag files *Beat Juggler (LP) Track 1.0b.amxd* onto tracks in Ableton, put *Beat Juggler (LP) Master 1.0b.amxd* on master track.
+Launchpad version: drag files *Beat Juggler (LP) Track 1.1b.amxd* onto tracks in Ableton, put *Beat Juggler (LP) Master 1.1b.amxd* on master track.
 
 Or simply double-click those fancy .amxd files, press buttons with question marks and be happy.
 
@@ -33,7 +33,11 @@ Similar project where I've discovered brilliant idea of master/slave devices bre
 http://empytree.com/projects/beatjuggler  
 https://github.com/empytree/beatjuggler
 
-Written in Max 5.1.9, tested in Ableton Live 8.2.5. Breifly tested in Max 7.0.3 and Live 9.1.7. Current version is **1.0 beta**. Please, report bugs as GitHub issues, or write me via credentials specified in LICENSE file.
+Written in Max 5.1.9, tested in Ableton Live 8.2.5.
+Briefly tested in Max 7.0.3 and Live 9.1.7.
+Current version is **1.1 beta**.
 
-Copyright 2015 Sergey Parfenov (aka Empytree)  
+Please, report bugs as GitHub issues, or write me via credentials specified in LICENSE file.
+
+Copyright 2016 Sergey Parfenov (aka Empytree)  
 All trademarks are property of their respective owners.
