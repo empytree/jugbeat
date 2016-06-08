@@ -25,6 +25,9 @@ Launchpad version:
 
 Or simply double-click those fancy '.amxd' files, then press question mark buttons and be happy.
 
+**NB!** You will need Max for Live: https://www.ableton.com/en/live/max-for-live/  
+It is shipped with Suite edition of Ableton Live, and available for purchase in Standard edition.
+
 Beat Juggler was inspired by following great projects:
 
 - **BeatLookUp** (by Chris 'CList' List): http://www.semaforte.com/reaktor/about.htm  
