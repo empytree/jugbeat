@@ -31,7 +31,7 @@ It is shipped with Suite edition of Ableton Live, and available for purchase in 
 Beat Juggler was inspired by following great projects:
 
 - **BeatLookUp** (by Chris 'CList' List): http://www.semaforte.com/reaktor/about.htm  
-Actually, I've never touched it. Once I had seen Moldover used it in his setup: http://www.youtube.com/watch?v=L2McDeSKiOU - and at that point I have become bent on embedding a similar plugin into my own Ableton setup.
+Actually, I've never touched it. Once I've seen Moldover using it: http://www.youtube.com/watch?v=L2McDeSKiOU - and I had become bent on embedding a similar plugin into my own Ableton setup.
 
 - **mlr** (by tehn): https://github.com/monome-community/mlr  
 It's a role model. No comments. Never used, tried once, along with mlrv.
