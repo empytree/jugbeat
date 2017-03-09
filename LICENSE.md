@@ -25,8 +25,8 @@ https://facebook.com/horvath.amdm
 https://vk.com/horvath  
 https://twitter.com/horvath_amdm  
 https://instagram.com/empytree  
-http://youtube.com/sergeyparfenov  
-http://lastfm.ru/user/empytree  
+https://youtube.com/sergeyparfenov  
+https://last.fm/user/empytree  
 https://linkedin.com/in/empytree
 
-Copyright 2015 Sergey Parfenov (aka Empytree)
+Copyright 2015-2017 Sergey Parfenov (aka Empytree)

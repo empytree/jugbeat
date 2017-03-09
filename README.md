@@ -14,12 +14,12 @@ Yep, for now - Launchpad only, as it is the sole grid controller I own right now
 
 Solo version:
 
-- Drag the file *Beat Juggler Solo 1.1b.amxd* over an any track in Ableton.
+- Drag the file *Beat Juggler Solo 1.1.1b.amxd* over an any track in Ableton.
 
 Launchpad version:
 
-1. Drag *Beat Juggler (LP) Track 1.1b.amxd* files onto tracks in Ableton;
-2. Put *Beat Juggler (LP) Master 1.1b.amxd* on master track;
+1. Put *Beat Juggler (LP) Master 1.1.1b.amxd* on master track;
+2. Drag *Beat Juggler (LP) Track 1.1.1b.amxd* files onto tracks in Ableton;
 3. Select your very controller in the master device;
 4. Press 'User 2' button on your Launchpad.
 
@@ -43,11 +43,11 @@ Similar project for Akai APC40 where I've discovered brilliant idea of master/sl
 http://empytree.com/projects/beatjuggler  
 https://github.com/empytree/beatjuggler
 
-Current version is **1.1 beta**.  
+Current version is **1.1.1 beta**.  
 Written in Max 5.1.9, tested in Ableton Live 8.2.5.  
 Briefly tested in Max 7.0.3 and Live 9.1.7.  
 
 Do not hesitate to report bugs as GitHub issues or via credentials specified in LICENSE file.
 
-Copyright 2016 Sergey Parfenov (aka Empytree)  
+Copyright 2017 Sergey Parfenov (aka Empytree)  
 All trademarks are property of their respective owners.
