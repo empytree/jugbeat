@@ -684,7 +684,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 300.0, 7.0, 25.0, 25.0 ]
 								}
 
@@ -696,7 +696,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "float" ],
 									"patching_rect" : [ 205.0, 7.0, 25.0, 25.0 ]
 								}
 
@@ -1028,13 +1028,13 @@
 ,
 					"patching_rect" : [ 1038.0, 1098.0, 201.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p visuals"
@@ -1593,13 +1593,13 @@
 ,
 					"patching_rect" : [ 1010.0, 477.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p colors"
@@ -1678,11 +1678,12 @@
 					"presentation_rect" : [ 237.0, 8.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Help!",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Help!",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -1697,8 +1698,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -1895,11 +1895,12 @@
 									"presentation_rect" : [ 508.0, 726.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -1914,8 +1915,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -1939,11 +1939,12 @@
 									"presentation_rect" : [ 478.0, 726.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -1958,8 +1959,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -1983,11 +1983,12 @@
 									"presentation_rect" : [ 148.0, 726.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2002,8 +2003,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2027,11 +2027,12 @@
 									"presentation_rect" : [ 508.0, 699.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2046,8 +2047,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2071,11 +2071,12 @@
 									"presentation_rect" : [ 478.0, 699.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2090,8 +2091,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2115,11 +2115,12 @@
 									"presentation_rect" : [ 508.0, 672.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2134,8 +2135,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2159,11 +2159,12 @@
 									"presentation_rect" : [ 478.0, 672.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2178,8 +2179,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2203,11 +2203,12 @@
 									"presentation_rect" : [ 148.0, 699.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2222,8 +2223,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2247,11 +2247,12 @@
 									"presentation_rect" : [ 148.0, 672.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2266,8 +2267,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2291,11 +2291,12 @@
 									"presentation_rect" : [ 508.0, 644.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2310,8 +2311,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2335,11 +2335,12 @@
 									"presentation_rect" : [ 478.0, 644.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2354,8 +2355,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2379,11 +2379,12 @@
 									"presentation_rect" : [ 508.0, 617.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2398,8 +2399,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2423,11 +2423,12 @@
 									"presentation_rect" : [ 478.0, 617.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2442,8 +2443,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2467,11 +2467,12 @@
 									"presentation_rect" : [ 148.0, 644.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2486,8 +2487,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2511,11 +2511,12 @@
 									"presentation_rect" : [ 148.0, 617.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2530,8 +2531,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2555,11 +2555,12 @@
 									"presentation_rect" : [ 508.0, 590.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2574,8 +2575,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2599,11 +2599,12 @@
 									"presentation_rect" : [ 478.0, 590.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2618,8 +2619,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2643,11 +2643,12 @@
 									"presentation_rect" : [ 508.0, 563.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2662,8 +2663,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2687,11 +2687,12 @@
 									"presentation_rect" : [ 478.0, 563.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2706,8 +2707,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2731,11 +2731,12 @@
 									"presentation_rect" : [ 148.0, 590.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2750,8 +2751,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2775,11 +2775,12 @@
 									"presentation_rect" : [ 148.0, 563.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2794,8 +2795,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2870,11 +2870,12 @@
 									"presentation_rect" : [ 148.0, 528.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2889,8 +2890,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2915,11 +2915,12 @@
 									"presentation_rect" : [ 148.0, 91.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2934,8 +2935,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -2959,11 +2959,12 @@
 									"presentation_rect" : [ 148.0, 120.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -2978,8 +2979,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3137,11 +3137,12 @@
 									"presentation_rect" : [ 96.0, 474.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat", "2x" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 127.0,
 											"parameter_mmin" : 0.0,
@@ -3157,8 +3158,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3182,11 +3182,12 @@
 									"presentation_rect" : [ 97.0, 388.0, 71.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "Free", "1/2", "Full", "Double" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 127.0,
 											"parameter_mmin" : 0.0,
@@ -3202,8 +3203,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3228,11 +3228,12 @@
 									"presentation_rect" : [ 139.0, 474.0, 28.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3247,8 +3248,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3275,11 +3275,12 @@
 									"presentation_rect" : [ 123.0, 302.0, 47.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3294,8 +3295,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3322,11 +3322,12 @@
 									"presentation_rect" : [ 73.0, 302.0, 47.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3341,8 +3342,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3384,11 +3384,12 @@
 									"presentation_rect" : [ 139.0, 431.0, 28.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3404,8 +3405,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3431,11 +3431,12 @@
 									"presentation_rect" : [ 96.0, 431.0, 40.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 127.0,
 											"parameter_mmin" : 0.0,
@@ -3451,8 +3452,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3523,11 +3523,12 @@
 									"presentation_rect" : [ 73.0, 266.0, 97.0, 33.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3543,8 +3544,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3571,11 +3571,12 @@
 									"presentation_rect" : [ 97.0, 345.0, 71.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "1", "2", "4", "8" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 127.0,
 											"parameter_mmin" : 0.0,
@@ -3591,8 +3592,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3616,11 +3616,12 @@
 									"presentation_rect" : [ 148.0, 207.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3635,8 +3636,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3661,11 +3661,12 @@
 									"presentation_rect" : [ 84.0, 207.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3680,8 +3681,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3706,11 +3706,12 @@
 									"presentation_rect" : [ 116.0, 207.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "val1", "val2" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3725,8 +3726,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3769,11 +3769,12 @@
 									"presentation_rect" : [ 116.0, 91.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3788,8 +3789,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3813,11 +3813,12 @@
 									"presentation_rect" : [ 84.0, 91.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3832,8 +3833,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3857,11 +3857,12 @@
 									"presentation_rect" : [ 52.0, 91.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "off", "on" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3876,8 +3877,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3901,11 +3901,12 @@
 									"presentation_rect" : [ 20.0, 91.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3920,8 +3921,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3945,11 +3945,12 @@
 									"presentation_rect" : [ 116.0, 120.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -3964,8 +3965,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -3989,11 +3989,12 @@
 									"presentation_rect" : [ 84.0, 120.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -4008,8 +4009,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -4033,11 +4033,12 @@
 									"presentation_rect" : [ 52.0, 120.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -4052,8 +4053,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -4077,11 +4077,12 @@
 									"presentation_rect" : [ 20.0, 120.0, 20.0, 20.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 2,
+											"parameter_steps" : 0,
+											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_enum" : [ "0", "1" ],
 											"parameter_exponent" : 1.0,
-											"parameter_annotation_name" : "Beat Juggler Help",
 											"parameter_unitstyle" : 10,
 											"parameter_mmax" : 1.0,
 											"parameter_mmin" : 0.0,
@@ -4096,8 +4097,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -4341,13 +4341,13 @@
 ,
 					"patching_rect" : [ 368.0, 350.0, 40.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p help",
@@ -4399,11 +4399,12 @@
 					"presentation_rect" : [ 237.0, 37.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Right",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Right",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -4418,8 +4419,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -4445,11 +4445,12 @@
 					"presentation_rect" : [ 173.0, 37.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Left",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Left",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -4464,8 +4465,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -4533,11 +4533,12 @@
 					"presentation_rect" : [ 205.0, 37.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Device track position",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Device track position",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -4552,8 +4553,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -4586,7 +4586,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 4,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -5285,10 +5285,11 @@
 									"patching_rect" : [ 501.0, 269.0, 36.0, 15.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_steps" : 0,
+											"parameter_speedlim" : 1.0,
 											"parameter_invisible" : 1,
-											"parameter_exponent" : 1.0,
+											"parameter_steps" : 0,
 											"parameter_annotation_name" : "",
+											"parameter_exponent" : 1.0,
 											"parameter_unitstyle" : 0,
 											"parameter_mmax" : 254.0,
 											"parameter_mmin" : -1.0,
@@ -5303,8 +5304,7 @@
 											"parameter_info" : "",
 											"parameter_units" : "",
 											"parameter_order" : 0,
-											"parameter_defer" : 0,
-											"parameter_speedlim" : 1.0
+											"parameter_defer" : 0
 										}
 
 									}
@@ -6795,13 +6795,13 @@
 ,
 					"patching_rect" : [ 118.0, 201.0, 102.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p livetalks"
@@ -7332,13 +7332,13 @@
 ,
 					"patching_rect" : [ 256.0, 926.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p colors"
@@ -7913,13 +7913,13 @@
 ,
 					"patching_rect" : [ 270.0, 271.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p colors"
@@ -9001,13 +9001,13 @@
 ,
 					"patching_rect" : [ 640.0, 222.0, 62.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p control 1"
@@ -9522,13 +9522,13 @@
 ,
 					"patching_rect" : [ 429.0, 291.0, 102.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p launchpad_mode",
@@ -10187,13 +10187,13 @@
 ,
 					"patching_rect" : [ 474.0, 421.0, 67.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Hold"
@@ -10820,13 +10820,13 @@
 ,
 					"patching_rect" : [ 195.0, 842.0, 79.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Looper"
@@ -10848,11 +10848,12 @@
 					"presentation_rect" : [ 86.0, 149.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Stutter",
 							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat", "2x" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Stutter",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
@@ -10868,8 +10869,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 4,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -11526,13 +11526,13 @@
 ,
 					"patching_rect" : [ 955.0, 309.0, 67.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Bars"
@@ -12159,13 +12159,13 @@
 ,
 					"patching_rect" : [ 110.0, 421.0, 78.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Length"
@@ -12806,13 +12806,13 @@
 ,
 					"patching_rect" : [ 366.0, 421.0, 77.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Stutter"
@@ -13453,13 +13453,13 @@
 ,
 					"patching_rect" : [ 616.0, 421.0, 106.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Quantization"
@@ -13488,7 +13488,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -14100,13 +14100,13 @@
 ,
 					"patching_rect" : [ 234.0, 421.0, 67.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Tails"
@@ -14747,13 +14747,13 @@
 ,
 					"patching_rect" : [ 1102.0, 309.0, 84.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Reverse"
@@ -15380,13 +15380,13 @@
 ,
 					"patching_rect" : [ 76.0, 842.0, 85.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Through"
@@ -15781,13 +15781,13 @@
 ,
 					"patching_rect" : [ 48.0, 201.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p reporting"
@@ -15802,7 +15802,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -16524,13 +16524,13 @@
 ,
 					"patching_rect" : [ 1219.0, 309.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p sync Mode"
@@ -16692,11 +16692,12 @@
 					"presentation_rect" : [ 86.0, 113.0, 71.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat duration",
 							"parameter_enum" : [ "Free", "1/2", "Full", "Double" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat duration",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
@@ -16712,8 +16713,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 1,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -17057,13 +17057,13 @@
 ,
 					"patching_rect" : [ 110.0, 543.0, 46.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p divs 4"
@@ -17725,13 +17725,13 @@
 ,
 									"patching_rect" : [ 79.0, 263.0, 43.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"fontface" : 0,
 										"default_fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontname" : "Arial",
+										"globalpatchername" : "",
+										"fontface" : 0
 									}
 ,
 									"text" : "p shift"
@@ -18365,13 +18365,13 @@
 ,
 					"patching_rect" : [ 939.46167, 741.533447, 99.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p lights"
@@ -18594,7 +18594,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -18966,13 +18966,13 @@
 ,
 									"patching_rect" : [ 79.0, 263.0, 43.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial",
-										"fontface" : 0,
 										"default_fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontname" : "Arial",
 										"default_fontsize" : 12.0,
-										"globalpatchername" : ""
+										"fontname" : "Arial",
+										"globalpatchername" : "",
+										"fontface" : 0
 									}
 ,
 									"text" : "p shift"
@@ -19606,13 +19606,13 @@
 ,
 					"patching_rect" : [ 766.0, 742.0, 104.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p lights"
@@ -20205,13 +20205,13 @@
 ,
 					"patching_rect" : [ 436.0, 967.0, 64.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p pancurve"
@@ -21309,13 +21309,13 @@
 ,
 					"patching_rect" : [ 534.0, 679.0, 182.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p quantizator"
@@ -21929,13 +21929,13 @@
 ,
 									"patching_rect" : [ 909.0, 815.0, 201.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"fontface" : 0,
 										"default_fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontname" : "Arial Bold",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"fontname" : "Arial Bold",
+										"globalpatchername" : "",
+										"fontface" : 0
 									}
 ,
 									"text" : "p mixer"
@@ -23392,13 +23392,13 @@
 ,
 									"patching_rect" : [ 688.0, 815.0, 202.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"fontface" : 0,
 										"default_fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontname" : "Arial Bold",
 										"default_fontsize" : 10.0,
-										"globalpatchername" : ""
+										"fontname" : "Arial Bold",
+										"globalpatchername" : "",
+										"fontface" : 0
 									}
 ,
 									"text" : "p mixer"
@@ -24848,7 +24848,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-49", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 177.5, 81.0, 151.5, 81.0 ],
+									"midpoints" : [ 177.5, 82.0, 151.5, 82.0 ],
 									"source" : [ "obj-209", 5 ]
 								}
 
@@ -24954,9 +24954,27 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"hidden" : 0,
+									"midpoints" : [ 501.5, 155.0, 480.5, 155.0, 480.5, 78.0, 151.5, 78.0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 501.5, 155.0, 312.0, 155.0, 312.0, 74.0, 125.5, 74.0 ],
+									"midpoints" : [ 501.5, 155.0, 480.0, 155.0, 480.0, 78.0, 125.5, 78.0 ],
+									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-95", 0 ],
+									"hidden" : 0,
+									"midpoints" : [ 501.5, 155.0, 480.5, 155.0, 480.5, 78.0, 177.5, 78.0 ],
 									"source" : [ "obj-24", 0 ]
 								}
 
@@ -25856,7 +25874,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-125", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 260.5, 81.5, 807.5, 81.5 ],
+									"midpoints" : [ 260.5, 82.5, 807.5, 82.5 ],
 									"source" : [ "obj-72", 2 ]
 								}
 
@@ -26379,13 +26397,13 @@
 ,
 					"patching_rect" : [ 256.0, 880.0, 264.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p core"
@@ -26408,11 +26426,12 @@
 					"presentation_rect" : [ 129.0, 149.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Hold",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Hold",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -26427,8 +26446,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 5,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -26456,11 +26474,12 @@
 					"presentation_rect" : [ 160.0, 95.0, 97.0, 33.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Audio-through",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Audio-through",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -26476,8 +26495,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 6,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -26504,11 +26522,12 @@
 					"presentation_rect" : [ 210.0, 131.0, 47.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Reverse",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Reverse",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -26523,8 +26542,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 8,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -26800,13 +26818,13 @@
 ,
 					"patching_rect" : [ 366.0, 543.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p divs 6"
@@ -26858,11 +26876,12 @@
 					"presentation_rect" : [ 205.0, 8.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Looper mode",
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Looper mode",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -26877,8 +26896,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 9,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -26918,11 +26936,12 @@
 					"presentation_rect" : [ 129.0, 131.0, 28.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Quantize tails only",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Quantize tails only",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -26938,8 +26957,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 3,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27201,13 +27219,13 @@
 ,
 					"patching_rect" : [ 616.0, 543.0, 48.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p divs 5"
@@ -27229,11 +27247,12 @@
 					"presentation_rect" : [ 86.0, 131.0, 40.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Quantization",
 							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Quantization",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
@@ -27249,8 +27268,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 2,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27421,11 +27439,12 @@
 					"presentation_rect" : [ 237.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27440,8 +27459,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27465,11 +27483,12 @@
 					"presentation_rect" : [ 205.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27484,8 +27503,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27509,11 +27527,12 @@
 					"presentation_rect" : [ 173.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27528,8 +27547,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27553,11 +27571,12 @@
 					"presentation_rect" : [ 141.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27572,8 +27591,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27597,11 +27615,12 @@
 					"presentation_rect" : [ 109.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27616,8 +27635,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27641,11 +27659,12 @@
 					"presentation_rect" : [ 77.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27660,8 +27679,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27685,11 +27703,12 @@
 					"presentation_rect" : [ 45.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27704,8 +27723,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27729,11 +27747,12 @@
 					"presentation_rect" : [ 13.0, 66.0, 20.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27748,8 +27767,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27774,11 +27792,12 @@
 					"presentation_rect" : [ 160.0, 131.0, 47.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Flow mode",
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Flow mode",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
@@ -27793,8 +27812,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 7,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -27820,11 +27838,12 @@
 					"presentation_rect" : [ 86.0, 95.0, 71.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_steps" : 0,
+							"parameter_speedlim" : 1.0,
 							"parameter_invisible" : 0,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Bars to record",
 							"parameter_enum" : [ "1", "2", "4", "8" ],
 							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Bars to record",
 							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
@@ -27840,8 +27859,7 @@
 							"parameter_info" : "",
 							"parameter_units" : "",
 							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0
+							"parameter_defer" : 0
 						}
 
 					}
@@ -28372,13 +28390,13 @@
 ,
 					"patching_rect" : [ 310.0, 926.0, 129.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontname" : "Arial Bold",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : ""
+						"fontname" : "Arial Bold",
+						"globalpatchername" : "",
+						"fontface" : 0
 					}
 ,
 					"text" : "p mixer"
@@ -31529,75 +31547,75 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-74::obj-23" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-81" : [ "Beat duration", "Beat duration", 1 ],
-			"obj-74::obj-185::obj-54::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-2" : [ "Bars to record", "Bars to record", 0 ],
-			"obj-74::obj-81" : [ "live.menu[6]", "live.menu[1]", 0 ],
-			"obj-93" : [ "live.button[18]", "live.button", 0 ],
-			"obj-74::obj-42" : [ "live.tab[7]", "live.tab", 0 ],
-			"obj-6" : [ "Quantize tails only", "Tails", 3 ],
-			"obj-74::obj-91" : [ "live.menu[5]", "live.menu[4]", 0 ],
-			"obj-165" : [ "Hold", "Hold", 5 ],
-			"obj-74::obj-66" : [ "live.text[9]", "live.text[5]", 0 ],
-			"obj-74::obj-22" : [ "live.button[23]", "live.button", 0 ],
-			"obj-74::obj-51" : [ "live.button[45]", "live.button", 0 ],
-			"obj-74::obj-124" : [ "live.menu[7]", "live.menu[2]", 0 ],
-			"obj-123" : [ "Reverse", "Reverse", 8 ],
-			"obj-74::obj-52" : [ "live.button[46]", "live.button", 0 ],
-			"obj-74::obj-53" : [ "live.button[47]", "live.button", 0 ],
-			"obj-74::obj-54" : [ "live.button[48]", "live.button", 0 ],
-			"obj-74::obj-55" : [ "live.button[49]", "live.button", 0 ],
-			"obj-74::obj-65" : [ "live.text[10]", "live.text[5]", 0 ],
-			"obj-74::obj-56" : [ "live.button[50]", "live.button", 0 ],
-			"obj-74::obj-46" : [ "live.button[40]", "live.button", 0 ],
-			"obj-74::obj-47" : [ "live.button[41]", "live.button", 0 ],
-			"obj-74::obj-57" : [ "live.button[51]", "live.button", 0 ],
+			"obj-74::obj-70" : [ "live.text[8]", "live.text[5]", 0 ],
+			"obj-74::obj-6" : [ "live.text[11]", "live.text", 0 ],
+			"obj-74::obj-26" : [ "live.button[31]", "live.button", 0 ],
 			"obj-74::obj-48" : [ "live.button[42]", "live.button", 0 ],
 			"obj-74::obj-49" : [ "live.button[43]", "live.button", 0 ],
-			"obj-21" : [ "live.button[12]", "live.button", 0 ],
-			"obj-74::obj-50" : [ "live.button[44]", "live.button", 0 ],
-			"obj-74::obj-43" : [ "live.button[38]", "live.button", 0 ],
-			"obj-74::obj-41" : [ "live.button[37]", "live.button", 0 ],
-			"obj-74::obj-6" : [ "live.text[11]", "live.text", 0 ],
-			"obj-168" : [ "Looper mode", "Looper mode", 9 ],
-			"obj-74::obj-21" : [ "live.button[24]", "live.button", 0 ],
-			"obj-74::obj-40" : [ "live.button[36]", "live.button", 0 ],
-			"obj-74::obj-39" : [ "live.button[35]", "live.button", 0 ],
-			"obj-74::obj-20" : [ "live.button[25]", "live.button", 0 ],
-			"obj-185::obj-54::obj-7" : [ "saved-string[1]", "saved-string", 0 ],
-			"obj-74::obj-59" : [ "live.button[52]", "live.button", 0 ],
-			"obj-74::obj-38" : [ "live.button[34]", "live.button", 0 ],
-			"obj-74::obj-19" : [ "live.button[26]", "live.button", 0 ],
-			"obj-91" : [ "Stutter", "Stutter", 4 ],
-			"obj-70" : [ "Move device forth in chain", "live.text[5]", 0 ],
-			"obj-74::obj-37" : [ "live.button[33]", "live.button", 0 ],
-			"obj-74::obj-11" : [ "live.button[27]", "live.button", 0 ],
-			"obj-74::obj-60" : [ "live.button[53]", "live.button", 0 ],
-			"obj-66" : [ "Move device back in chain", "live.text[5]", 0 ],
-			"obj-74::obj-168" : [ "live.button[32]", "live.button", 0 ],
-			"obj-74::obj-12" : [ "live.button[28]", "live.button", 0 ],
-			"obj-74::obj-45" : [ "live.button[39]", "live.button", 0 ],
-			"obj-74::obj-14" : [ "live.button[29]", "live.button", 0 ],
-			"obj-74::obj-13" : [ "live.button[19]", "live.button", 0 ],
-			"obj-74::obj-25" : [ "live.button[30]", "live.button", 0 ],
-			"obj-22" : [ "live.button[13]", "live.button", 0 ],
-			"obj-25" : [ "live.button[16]", "live.button", 0 ],
-			"obj-65" : [ "live.text[5]", "live.text[5]", 0 ],
-			"obj-74::obj-123" : [ "live.tab[6]", "live.tab", 0 ],
-			"obj-147::obj-9" : [ "Track position", "live.numbox", 0 ],
-			"obj-24" : [ "live.button[15]", "live.button", 0 ],
-			"obj-23" : [ "live.button[14]", "live.button", 0 ],
-			"obj-20" : [ "live.button[11]", "live.button", 0 ],
-			"obj-19" : [ "live.button[10]", "live.button", 0 ],
-			"obj-74::obj-26" : [ "live.button[31]", "live.button", 0 ],
-			"obj-74::obj-70" : [ "live.text[8]", "live.text[5]", 0 ],
 			"obj-26" : [ "live.button[17]", "live.button", 0 ],
-			"obj-124" : [ "Quantization", "Quantization", 2 ],
+			"obj-74::obj-50" : [ "live.button[44]", "live.button", 0 ],
+			"obj-74::obj-22" : [ "live.button[23]", "live.button", 0 ],
+			"obj-147::obj-9" : [ "Track position", "live.numbox", 0 ],
+			"obj-74::obj-13" : [ "live.button[19]", "live.button", 0 ],
 			"obj-42" : [ "Flow mode", "Flow mode", 7 ],
+			"obj-74::obj-65" : [ "live.text[10]", "live.text[5]", 0 ],
+			"obj-2" : [ "Bars to record", "Bars to record", 0 ],
+			"obj-74::obj-11" : [ "live.button[27]", "live.button", 0 ],
+			"obj-74::obj-55" : [ "live.button[49]", "live.button", 0 ],
 			"obj-74::obj-165" : [ "live.tab[4]", "live.tab", 0 ],
+			"obj-74::obj-37" : [ "live.button[33]", "live.button", 0 ],
+			"obj-74::obj-66" : [ "live.text[9]", "live.text[5]", 0 ],
+			"obj-123" : [ "Reverse", "Reverse", 8 ],
+			"obj-25" : [ "live.button[16]", "live.button", 0 ],
+			"obj-74::obj-51" : [ "live.button[45]", "live.button", 0 ],
+			"obj-74::obj-43" : [ "live.button[38]", "live.button", 0 ],
+			"obj-93" : [ "live.button[18]", "live.button", 0 ],
+			"obj-70" : [ "Move device forth in chain", "live.text[5]", 0 ],
+			"obj-66" : [ "Move device back in chain", "live.text[5]", 0 ],
+			"obj-74::obj-12" : [ "live.button[28]", "live.button", 0 ],
+			"obj-74::obj-56" : [ "live.button[50]", "live.button", 0 ],
 			"obj-74::obj-145" : [ "live.tab[5]", "live.tab", 0 ],
-			"obj-145" : [ "Audio-through", "Audio-through", 6 ]
+			"obj-91" : [ "Stutter", "Stutter", 4 ],
+			"obj-21" : [ "live.button[12]", "live.button", 0 ],
+			"obj-145" : [ "Audio-through", "Audio-through", 6 ],
+			"obj-74::obj-23" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-74::obj-21" : [ "live.button[24]", "live.button", 0 ],
+			"obj-168" : [ "Looper mode", "Looper mode", 9 ],
+			"obj-24" : [ "live.button[15]", "live.button", 0 ],
+			"obj-74::obj-41" : [ "live.button[37]", "live.button", 0 ],
+			"obj-74::obj-52" : [ "live.button[46]", "live.button", 0 ],
+			"obj-65" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-74::obj-185::obj-54::obj-7" : [ "saved-string", "saved-string", 0 ],
+			"obj-74::obj-40" : [ "live.button[36]", "live.button", 0 ],
+			"obj-74::obj-81" : [ "live.menu[6]", "live.menu[1]", 0 ],
+			"obj-74::obj-14" : [ "live.button[29]", "live.button", 0 ],
+			"obj-74::obj-57" : [ "live.button[51]", "live.button", 0 ],
+			"obj-22" : [ "live.button[13]", "live.button", 0 ],
+			"obj-74::obj-42" : [ "live.tab[7]", "live.tab", 0 ],
+			"obj-185::obj-54::obj-7" : [ "saved-string[1]", "saved-string", 0 ],
+			"obj-74::obj-91" : [ "live.menu[5]", "live.menu[4]", 0 ],
+			"obj-74::obj-20" : [ "live.button[25]", "live.button", 0 ],
+			"obj-23" : [ "live.button[14]", "live.button", 0 ],
+			"obj-74::obj-53" : [ "live.button[47]", "live.button", 0 ],
+			"obj-20" : [ "live.button[11]", "live.button", 0 ],
+			"obj-81" : [ "Beat duration", "Beat duration", 1 ],
+			"obj-74::obj-39" : [ "live.button[35]", "live.button", 0 ],
+			"obj-74::obj-168" : [ "live.button[32]", "live.button", 0 ],
+			"obj-74::obj-123" : [ "live.tab[6]", "live.tab", 0 ],
+			"obj-74::obj-25" : [ "live.button[30]", "live.button", 0 ],
+			"obj-74::obj-59" : [ "live.button[52]", "live.button", 0 ],
+			"obj-74::obj-60" : [ "live.button[53]", "live.button", 0 ],
+			"obj-74::obj-124" : [ "live.menu[7]", "live.menu[2]", 0 ],
+			"obj-124" : [ "Quantization", "Quantization", 2 ],
+			"obj-74::obj-45" : [ "live.button[39]", "live.button", 0 ],
+			"obj-74::obj-46" : [ "live.button[40]", "live.button", 0 ],
+			"obj-74::obj-47" : [ "live.button[41]", "live.button", 0 ],
+			"obj-74::obj-19" : [ "live.button[26]", "live.button", 0 ],
+			"obj-74::obj-54" : [ "live.button[48]", "live.button", 0 ],
+			"obj-19" : [ "live.button[10]", "live.button", 0 ],
+			"obj-6" : [ "Quantize tails only", "Tails", 3 ],
+			"obj-74::obj-38" : [ "live.button[34]", "live.button", 0 ],
+			"obj-165" : [ "Hold", "Hold", 5 ]
 		}
 
 	}
