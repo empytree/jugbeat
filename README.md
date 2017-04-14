@@ -1,7 +1,7 @@
 Beat Juggler
 ============
 
-Beat Juggler is a looper Max for Live device, which is built around the idea of beat manipulating you might have seen in mlr and similar programs. While being bound to beat and tempo of your Ableton song, it constantly records incoming audio stream to the internal bar-fold long buffer. The looped buffer is mapped across eight buttons, inviting you to recall selected beats with proper quantization. Playback can be stuttered and reversed. The buffer can be locked for a while, therefore providing elementary looper capabilities.
+Beat Juggler is a looper Max for Live device, which is built around the idea of beat manipulating you might have seen in mlr and similar programs. While being bound to beat and tempo of your Ableton song, it constantly records incoming audio stream to the internal bar-fold long buffer. Eight equal slices of the looped buffer are mapped across eight buttons, inviting you to recall selected beats with proper quantization. Playback can be stuttered and reversed. The buffer can be locked for a while, therefore providing elementary looper capabilities.
 
 Beat Juggler comes in two implementations - 'Solo' device and much more powerful controller versions (featuring master device that conducts an orchestra of controller-specific track devices).
 
