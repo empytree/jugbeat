@@ -1,19 +1,19 @@
-Well, there is no license. The project Beat Juggler will be licensed later. However, I found this file useful for some disambiguation and contact information.
+Well, there is no license. The project jugbeat will be licensed later. However, I found this file useful for some disambiguation and contact information.
 
-Beat Juggler as a ditributed project is a set of files named by a simple scheme:
+jugbeat as a ditributed project is a set of files named by a simple scheme:
 
 - LICENSE.md (this file)
 - README.md (brief description)
-- Beat Juggler Solo [version].amxd (pure solo implementation)
+- jugbeat solo [version].amxd (pure solo implementation)
 
 ...
 
-- Beat Juggler ([controller]) Master [version].amxd (controller-specific master device)
-- Beat Juggler ([controller]) Track [version].amxd (controller-specific solo device)
+- jugbeat ([controller]) master [version].amxd (controller-specific master device)
+- jugbeat ([controller]) track [version].amxd (controller-specific solo device)
 
 ...
 
-- /patches/Beat Juggler Solo [version].maxpat (exported patch for the title device, and so on)
+- /patches/jugbeat solo [version].maxpat (exported patch for the title device, and so on)
 
 ...
 
@@ -29,4 +29,4 @@ https://youtube.com/sergeyparfenov
 https://last.fm/user/empytree  
 https://linkedin.com/in/empytree
 
-Copyright 2015-2017 Sergey Parfenov (aka Empytree)
+Copyright 2015-2019 Sergey Parfenov (aka Empytree)
