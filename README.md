@@ -33,7 +33,7 @@ Or simply double-click those fancy '.amxd' files, then press question mark butto
 
 jugbeat was inspired by following great projects:
 
-- **BeatLookUp** (by Chris 'CList' List): http://www.semaforte.com/reaktor/about.htm (no longer available) 
+- **BeatLookUp** (by Chris 'CList' List): http://www.semaforte.com/reaktor/about.htm (no longer available)  
 Actually, I've never touched it. Once I've seen Moldover using it: http://www.youtube.com/watch?v=L2McDeSKiOU - and I had become bent on embedding a similar plugin into my own Ableton setup.
 
 - **mlr** (by tehn): https://github.com/monome-community/mlr  
