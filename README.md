@@ -48,7 +48,7 @@ https://github.com/empytree/jugbeat
 
 Current version is **1.2 beta**.  
 Written in Max 5.1.9, tested in Ableton Live 8.2.5.  
-Briefly tested in Max 7.0.3 and Live 9.1.7.
+Briefly tested in Max 7.0.3 and Live 9.1.7.  
 Checked in Max 8.0.2 and Live 10.0.6.  
 
 Do not hesitate to report bugs as GitHub issues or via credentials specified in LICENSE file.
