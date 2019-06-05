@@ -5,13 +5,13 @@ jugbeat is a looper Max for Live device, which is built around the idea of beat 
 
 jugbeat comes in two implementations - 'Solo' device and much more powerful controller versions (featuring master device that conducts an orchestra of controller-specific track devices).
 
-###List of controllers covered:
+### List of controllers covered:
 
 - Launchpad (by Novation)
 
 Yep, for now - Launchpad only, as it is the sole grid controller I own right now. Probably it would also work for Launchpad S and Launchpad Pro. However, I am highly interested in creating versions for other popular grid controllers, Ableton Push in the first place. I need to purchase those, so I humbly ask for targeted donations. Core device will also grow strong, sequencer is a priority goal. Further information obtained on project website.
 
-###Usage:
+### Usage:
 
 You will need Max for Live: https://www.ableton.com/en/live/max-for-live/  
 It is shipped with Suite edition of Ableton Live, and available for purchase in Standard edition.
@@ -29,7 +29,7 @@ Launchpad version:
 
 Or simply double-click those fancy '.amxd' files, then press question mark buttons and be happy.
 
-###Credits
+### Credits
 
 jugbeat was inspired by following great projects:
 
@@ -42,7 +42,7 @@ It's a role model. No comments. Never used, tried once, along with mlrv.
 - **Beat Indexer** (by Shane Hazleton): http://www.maxforlive.com/library/device/880/beat-indexer-by-shane-hazleton-akai-professional  
 Similar project for Akai APC40 where I've discovered brilliant idea of master/slave devices break-up.
 
-###Project website:
+### Project website:
 http://empytree.com/projects/jugbeat  
 https://github.com/empytree/jugbeat
 
