@@ -29,4 +29,6 @@ https://youtube.com/sergeyparfenov
 https://last.fm/user/empytree  
 https://linkedin.com/in/empytree
 
+Write me: horvath.amdm@gmail.com
+
 Copyright 2015-2019 Sergey Parfenov (aka Empytree)
