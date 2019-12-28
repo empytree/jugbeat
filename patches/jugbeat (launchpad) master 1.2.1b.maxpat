@@ -7,9 +7,9 @@
 			"revision" : 9
 		}
 ,
-		"rect" : [ 33.0, 76.0, 1474.0, 816.0 ],
+		"rect" : [ 33.0, 76.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 33.0, 76.0, 1474.0, 816.0 ],
+		"defrect" : [ 33.0, 76.0, 640.0, 480.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -235,12 +235,12 @@
 ,
 					"patching_rect" : [ 23.0, 6.0, 77.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -489,14 +489,6 @@
 					"presentation_rect" : [ 246.0, 8.0, 31.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 0,
-							"parameter_shortname" : "live.button",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Help!",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -509,7 +501,15 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Help!",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 0,
+							"parameter_shortname" : "live.button",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Help!",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -579,6 +579,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-267",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1023,6 +1024,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-236",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1041,6 +1043,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-235",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1059,6 +1062,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-234",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1077,6 +1081,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-233",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1095,6 +1100,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-232",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1113,6 +1119,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
+									"hidden" : 1,
 									"id" : "obj-231",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2348,12 +2355,12 @@
 ,
 									"patching_rect" : [ 1136.0, 548.0, 49.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -5684,12 +5691,12 @@
 ,
 									"patching_rect" : [ 1012.0, 72.0, 143.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -5751,6 +5758,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.92549, 0.596078, 0.372549, 1.0 ],
+									"hidden" : 1,
 									"id" : "obj-199",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -8375,7 +8383,7 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.35, 0.85, 0.39, 1.0 ],
+									"bgcolor" : [ 0.66, 0.66, 0.66, 1.0 ],
 									"id" : "obj-50",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -8721,6 +8729,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.92549, 0.596078, 0.372549, 1.0 ],
+									"hidden" : 1,
 									"id" : "obj-200",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -8736,6 +8745,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.92549, 0.596078, 0.372549, 1.0 ],
+									"hidden" : 1,
 									"id" : "obj-245",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -8751,6 +8761,7 @@
 , 							{
 								"box" : 								{
 									"bgcolor" : [ 0.92549, 0.596078, 0.372549, 1.0 ],
+									"hidden" : 1,
 									"id" : "obj-246",
 									"maxclass" : "panel",
 									"numinlets" : 1,
@@ -9902,12 +9913,12 @@
 ,
 					"patching_rect" : [ 22.0, 423.0, 40.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -11247,12 +11258,12 @@
 ,
 					"patching_rect" : [ 752.0, 41.0, 106.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0
 					}
 ,
@@ -11794,7 +11805,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-311",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -13408,12 +13418,12 @@
 ,
 									"patching_rect" : [ 673.0, 544.0, 62.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -14962,12 +14972,12 @@
 ,
 					"patching_rect" : [ 839.0, 590.0, 478.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -15261,7 +15271,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-220",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -16291,12 +16300,12 @@
 ,
 									"patching_rect" : [ 757.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -16891,12 +16900,12 @@
 ,
 									"patching_rect" : [ 686.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -17491,12 +17500,12 @@
 ,
 									"patching_rect" : [ 615.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -18091,12 +18100,12 @@
 ,
 									"patching_rect" : [ 544.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -18691,12 +18700,12 @@
 ,
 									"patching_rect" : [ 472.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -19291,12 +19300,12 @@
 ,
 									"patching_rect" : [ 401.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -19891,12 +19900,12 @@
 ,
 									"patching_rect" : [ 330.0, 298.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -20491,12 +20500,12 @@
 ,
 									"patching_rect" : [ 138.0, 191.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -21284,12 +21293,12 @@
 ,
 					"patching_rect" : [ 188.0, 549.0, 159.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0
 					}
 ,
@@ -22323,12 +22332,12 @@
 ,
 					"patching_rect" : [ 64.0, 112.0, 63.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -22544,7 +22553,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-135",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -23302,12 +23310,12 @@
 ,
 									"patching_rect" : [ 139.0, 93.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -23902,12 +23910,12 @@
 ,
 									"patching_rect" : [ 20.0, 93.0, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -24335,12 +24343,12 @@
 ,
 					"patching_rect" : [ 115.0, 213.0, 93.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0
 					}
 ,
@@ -24494,7 +24502,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-224",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -24783,6 +24790,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-22",
+									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -25461,12 +25469,12 @@
 ,
 									"patching_rect" : [ 210.0, 278.0, 69.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -26061,12 +26069,12 @@
 ,
 									"patching_rect" : [ 59.0, 278.0, 69.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -26593,12 +26601,12 @@
 ,
 					"patching_rect" : [ 64.0, 495.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0
 					}
 ,
@@ -26801,7 +26809,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-130",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 2,
@@ -27579,12 +27586,12 @@
 ,
 									"patching_rect" : [ 51.0, 192.5, 67.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Arial Bold",
-										"default_fontface" : 0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontface" : 0,
 										"default_fontname" : "Arial Bold",
+										"fontname" : "Arial Bold",
 										"default_fontsize" : 10.0
 									}
 ,
@@ -27886,12 +27893,12 @@
 ,
 					"patching_rect" : [ 98.0, 393.0, 78.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -28816,15 +28823,6 @@
 					"presentation_rect" : [ 82.0, 145.0, 59.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 127.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 4.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Stutter",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global stutter",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -28837,7 +28835,16 @@
 							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat", "2x" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Stutter",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 127.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 4.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Stutter",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global stutter",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -28861,15 +28868,6 @@
 					"presentation_rect" : [ 82.0, 127.0, 59.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 127.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 4.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Quantization",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global quantization",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -28882,7 +28880,16 @@
 							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Quantization",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 127.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 4.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Quantization",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global quantization",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29111,7 +29118,6 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-198",
-					"int" : 1,
 					"maxclass" : "gswitch2",
 					"numinlets" : 2,
 					"numoutlets" : 2,
@@ -29400,14 +29406,6 @@
 					"presentation_rect" : [ 144.0, 145.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 0,
-							"parameter_shortname" : "Hold",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global hold",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29420,7 +29418,15 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Hold",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 0,
+							"parameter_shortname" : "Hold",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global hold",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29449,15 +29455,6 @@
 					"presentation_rect" : [ 178.0, 91.0, 99.0, 33.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Audio-through",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global audio-through",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29470,7 +29467,16 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Audio-through",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Audio-through",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global audio-through",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29498,14 +29504,6 @@
 					"presentation_rect" : [ 229.0, 127.0, 48.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 0,
-							"parameter_shortname" : "Reverse",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global reverse",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29518,7 +29516,15 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Reverse",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 0,
+							"parameter_shortname" : "Reverse",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global reverse",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29546,7 +29552,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Length of the audio chunk, played after the selected beat had been fired in momentary mode. 'Full' means one eighth of the buffer. 'Free' mode allows to hold beats sounding while controller buttons are pressed or 'Hold' is used.",
+					"annotation" : "Length of the audio chunk, played after the selected beat had been fired in momentary mode. 'Full' means one eighth (for 4/4 time signature) of the buffer. 'Free' mode allows to hold beats sounding while controller buttons are pressed or 'Hold' is used.",
 					"id" : "obj-101",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -29559,15 +29565,6 @@
 					"presentation_rect" : [ 82.0, 109.0, 93.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 127.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 2.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Beat duration",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global beat duration",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29580,7 +29577,16 @@
 							"parameter_enum" : [ "Free", "1/2", "Full", "Double" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Beat duration",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 127.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 2.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Beat duration",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global beat duration",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29619,15 +29625,6 @@
 					"presentation_rect" : [ 144.0, 127.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 0.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Tails",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global quantize tails only",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29640,7 +29637,16 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Quantize tails only",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Tails",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global quantize tails only",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29753,7 +29759,7 @@
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Overall loop length, sliced to eight beats to juggle with. Key parameter as all the other durations are set in relative values. From one to eight bars which is pretty enough for any situation. No instant action, changes are actually made by the end of the loop.",
+					"annotation" : "Overall loop length, sliced to up to eight beats to juggle with. Key parameter as all the other durations are set in relative values. From one to eight bars which is pretty enough for any situation. No instant action, changes are actually made by the end of the loop.",
 					"id" : "obj-44",
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
@@ -29766,15 +29772,6 @@
 					"presentation_rect" : [ 82.0, 91.0, 93.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 127.0,
-							"parameter_mmin" : 0.0,
-							"parameter_initial" : [ 1.0 ],
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 1,
-							"parameter_shortname" : "Bars to record",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global bars to record",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29787,7 +29784,16 @@
 							"parameter_enum" : [ "1", "2", "4", "8" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Bars to record",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 127.0,
+							"parameter_mmin" : 0.0,
+							"parameter_initial" : [ 1.0 ],
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 1,
+							"parameter_shortname" : "Bars to record",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global bars to record",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -29813,14 +29819,6 @@
 					"presentation_rect" : [ 178.0, 127.0, 48.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_mmax" : 1.0,
-							"parameter_mmin" : 0.0,
-							"parameter_type" : 2,
-							"parameter_initial_enable" : 0,
-							"parameter_shortname" : "Flow mode",
-							"parameter_modmax" : 127.0,
-							"parameter_longname" : "Global flow mode",
-							"parameter_modmin" : 0.0,
 							"parameter_linknames" : 0,
 							"parameter_modmode" : 0,
 							"parameter_info" : "",
@@ -29833,7 +29831,15 @@
 							"parameter_enum" : [ "0", "1" ],
 							"parameter_exponent" : 1.0,
 							"parameter_annotation_name" : "Flow mode",
-							"parameter_unitstyle" : 10
+							"parameter_unitstyle" : 10,
+							"parameter_mmax" : 1.0,
+							"parameter_mmin" : 0.0,
+							"parameter_type" : 2,
+							"parameter_initial_enable" : 0,
+							"parameter_shortname" : "Flow mode",
+							"parameter_modmax" : 127.0,
+							"parameter_longname" : "Global flow mode",
+							"parameter_modmin" : 0.0
 						}
 
 					}
@@ -30352,12 +30358,12 @@
 ,
 					"patching_rect" : [ 1209.0, 120.0, 102.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial Bold",
-						"default_fontface" : 0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontface" : 0,
 						"default_fontname" : "Arial Bold",
+						"fontname" : "Arial Bold",
 						"default_fontsize" : 10.0
 					}
 ,
@@ -32610,17 +32616,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-166" : [ "Global quantization", "Quantization", 2 ],
+			"obj-165" : [ "Global hold", "Hold", 5 ],
+			"obj-139" : [ "Global reverse", "Reverse", 8 ],
 			"obj-186" : [ "Global stutter", "Stutter", 4 ],
+			"obj-9" : [ "Help!", "live.button", 0 ],
 			"obj-23" : [ "Global flow mode", "Flow mode", 7 ],
 			"obj-145" : [ "Global audio-through", "Audio-through", 6 ],
-			"obj-9" : [ "Help!", "live.button", 0 ],
 			"obj-101" : [ "Global beat duration", "Beat duration", 1 ],
 			"obj-44" : [ "Global bars to record", "Bars to record", 0 ],
-			"obj-46::obj-54::obj-7" : [ "saved-string", "saved-string", 0 ],
 			"obj-82" : [ "Global quantize tails only", "Tails", 3 ],
-			"obj-165" : [ "Global hold", "Hold", 5 ],
-			"obj-139" : [ "Global reverse", "Reverse", 8 ]
+			"obj-46::obj-54::obj-7" : [ "saved-string", "saved-string", 0 ],
+			"obj-166" : [ "Global quantization", "Quantization", 2 ]
 		}
 
 	}
