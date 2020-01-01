@@ -31,4 +31,4 @@ https://linkedin.com/in/empytree
 
 Write me: horvath.amdm@gmail.com
 
-Copyright 2015-2019 Sergey Parfenov (aka Empytree)
+Copyright © 2015-2020 Sergey Parfenov (aka Empytree)

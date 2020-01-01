@@ -1,7 +1,7 @@
 jugbeat
 =======
 
-jugbeat is a looper Max for Live device, which is built around the idea of beat manipulating you might have seen in mlr and similar programs. While being bound to beat and tempo of your Ableton song, it constantly records incoming audio stream to the internal bar-fold long buffer. Eight equal slices of the looped buffer are mapped across eight buttons, inviting you to recall selected beats with proper quantization. Playback can be stuttered and reversed. The buffer can be locked for a while, therefore providing elementary looper capabilities.
+jugbeat is a looper Max for Live device, which is built around the idea of beat manipulating you might have seen in mlr and similar programs. While being bound to beat and tempo of your Ableton song, it constantly records incoming audio stream to the internal bar-fold long buffer. Eight equal slices (for 4/4 time signature) of the looped buffer are mapped across eight buttons, inviting you to recall selected beats with proper quantization. Playback can be stuttered and reversed. The buffer can be locked for a while, therefore providing elementary looper capabilities.
 
 jugbeat comes in two implementations - 'Solo' device and much more powerful controller versions (featuring master device that conducts an orchestra of controller-specific track devices).
 
@@ -53,5 +53,5 @@ Checked in Max 8.0.2 and Live 10.0.6.
 
 Do not hesitate to report bugs as GitHub issues or via credentials specified in LICENSE file.
 
-Copyright 2019 Sergey Parfenov (aka Empytree)  
+Copyright © 2020 Sergey Parfenov (aka Empytree)  
 All trademarks are property of their respective owners.
