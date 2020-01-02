@@ -11,6 +11,10 @@ jugbeat comes in two implementations - 'Solo' device and much more powerful cont
 
 Yep, for now - Launchpad only, as it is the sole grid controller I own right now. Probably it would also work for Launchpad Mini and Launchpad Pro. However, I am highly interested in creating versions for other popular grid controllers, Ableton Push in the first place. I need to purchase those, so I humbly ask for targeted donations. Core device will also grow strong, sequencer is a priority goal. Further information obtained on project website.
 
+### Tech demo:
+
+https://youtu.be/hqXjCZFpXiQ
+
 ### Usage:
 
 You will need Max for Live: https://www.ableton.com/en/live/max-for-live/  
