@@ -489,19 +489,6 @@
 					"presentation_rect" : [ 246.0, 8.0, 31.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Help!",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_type" : 2,
@@ -509,7 +496,20 @@
 							"parameter_shortname" : "live.button",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Help!",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 0,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Help!",
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -28823,19 +28823,6 @@
 					"presentation_rect" : [ 82.0, 145.0, 59.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 4,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat", "2x" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Stutter",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 4.0 ],
@@ -28844,7 +28831,20 @@
 							"parameter_shortname" : "Stutter",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global stutter",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 4,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Stutter",
+							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat", "2x" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -28868,19 +28868,6 @@
 					"presentation_rect" : [ 82.0, 127.0, 59.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 2,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Quantization",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 4.0 ],
@@ -28889,7 +28876,20 @@
 							"parameter_shortname" : "Quantization",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global quantization",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 2,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Quantization",
+							"parameter_enum" : [ "Off", "1/16", "1/8", "1/4", "1/2", "Beat" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29406,19 +29406,6 @@
 					"presentation_rect" : [ 144.0, 145.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 5,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Hold",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_type" : 2,
@@ -29426,7 +29413,20 @@
 							"parameter_shortname" : "Hold",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global hold",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 5,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Hold",
+							"parameter_enum" : [ "0", "1" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29455,19 +29455,6 @@
 					"presentation_rect" : [ 178.0, 91.0, 99.0, 33.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 6,
-							"parameter_defer" : 1,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Audio-through",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 1.0 ],
@@ -29476,7 +29463,20 @@
 							"parameter_shortname" : "Audio-through",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global audio-through",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 6,
+							"parameter_defer" : 1,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Audio-through",
+							"parameter_enum" : [ "0", "1" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29504,19 +29504,6 @@
 					"presentation_rect" : [ 229.0, 127.0, 48.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 8,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Reverse",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_type" : 2,
@@ -29524,7 +29511,20 @@
 							"parameter_shortname" : "Reverse",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global reverse",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 8,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Reverse",
+							"parameter_enum" : [ "0", "1" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29565,19 +29565,6 @@
 					"presentation_rect" : [ 82.0, 109.0, 93.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 1,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "Free", "1/2", "Full", "Double" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Beat duration",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 2.0 ],
@@ -29586,7 +29573,20 @@
 							"parameter_shortname" : "Beat duration",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global beat duration",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 1,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Beat duration",
+							"parameter_enum" : [ "Free", "1/2", "Full", "Double" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29625,19 +29625,6 @@
 					"presentation_rect" : [ 144.0, 127.0, 31.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 3,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Quantize tails only",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 0.0 ],
@@ -29646,7 +29633,20 @@
 							"parameter_shortname" : "Tails",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global quantize tails only",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 3,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Quantize tails only",
+							"parameter_enum" : [ "0", "1" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29772,19 +29772,6 @@
 					"presentation_rect" : [ 82.0, 91.0, 93.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 0,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "1", "2", "4", "8" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Bars to record",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 127.0,
 							"parameter_mmin" : 0.0,
 							"parameter_initial" : [ 1.0 ],
@@ -29793,7 +29780,20 @@
 							"parameter_shortname" : "Bars to record",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global bars to record",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 0,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Bars to record",
+							"parameter_enum" : [ "1", "2", "4", "8" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -29819,19 +29819,6 @@
 					"presentation_rect" : [ 178.0, 127.0, 48.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 0,
-							"parameter_modmode" : 0,
-							"parameter_info" : "",
-							"parameter_units" : "",
-							"parameter_order" : 7,
-							"parameter_defer" : 0,
-							"parameter_speedlim" : 1.0,
-							"parameter_steps" : 0,
-							"parameter_invisible" : 2,
-							"parameter_enum" : [ "0", "1" ],
-							"parameter_exponent" : 1.0,
-							"parameter_annotation_name" : "Flow mode",
-							"parameter_unitstyle" : 10,
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.0,
 							"parameter_type" : 2,
@@ -29839,7 +29826,20 @@
 							"parameter_shortname" : "Flow mode",
 							"parameter_modmax" : 127.0,
 							"parameter_longname" : "Global flow mode",
-							"parameter_modmin" : 0.0
+							"parameter_modmin" : 0.0,
+							"parameter_linknames" : 0,
+							"parameter_modmode" : 0,
+							"parameter_info" : "",
+							"parameter_units" : "",
+							"parameter_order" : 7,
+							"parameter_defer" : 0,
+							"parameter_speedlim" : 1.0,
+							"parameter_invisible" : 2,
+							"parameter_steps" : 0,
+							"parameter_annotation_name" : "Flow mode",
+							"parameter_enum" : [ "0", "1" ],
+							"parameter_exponent" : 1.0,
+							"parameter_unitstyle" : 10
 						}
 
 					}
@@ -32616,17 +32616,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-165" : [ "Global hold", "Hold", 5 ],
-			"obj-139" : [ "Global reverse", "Reverse", 8 ],
-			"obj-186" : [ "Global stutter", "Stutter", 4 ],
 			"obj-9" : [ "Help!", "live.button", 0 ],
-			"obj-23" : [ "Global flow mode", "Flow mode", 7 ],
+			"obj-139" : [ "Global reverse", "Reverse", 8 ],
 			"obj-145" : [ "Global audio-through", "Audio-through", 6 ],
-			"obj-101" : [ "Global beat duration", "Beat duration", 1 ],
+			"obj-23" : [ "Global flow mode", "Flow mode", 7 ],
+			"obj-166" : [ "Global quantization", "Quantization", 2 ],
+			"obj-165" : [ "Global hold", "Hold", 5 ],
 			"obj-44" : [ "Global bars to record", "Bars to record", 0 ],
-			"obj-82" : [ "Global quantize tails only", "Tails", 3 ],
 			"obj-46::obj-54::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-166" : [ "Global quantization", "Quantization", 2 ]
+			"obj-186" : [ "Global stutter", "Stutter", 4 ],
+			"obj-82" : [ "Global quantize tails only", "Tails", 3 ],
+			"obj-101" : [ "Global beat duration", "Beat duration", 1 ]
 		}
 
 	}

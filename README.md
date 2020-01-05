@@ -22,12 +22,12 @@ It is shipped with Suite edition of Ableton Live, and available for purchase in 
 
 Solo version:
 
-- Drag the file *jugbeat solo 1.2.1b.amxd* over an any track in Ableton.
+- Drag the file *jugbeat solo 1.2.2b.amxd* over an any track in Ableton.
 
 Launchpad version:
 
-1. Put *jugbeat (launchpad) master 1.2.1b.amxd* on master track;
-2. Drag *jugbeat (launchpad) track 1.2.1b.amxd* files onto tracks in Ableton;
+1. Put *jugbeat (launchpad) master 1.2.2b.amxd* on master track;
+2. Drag *jugbeat (launchpad) track 1.2.2b.amxd* files onto tracks in Ableton;
 3. Select your very controller in the master device;
 4. Press 'User 2' button on your Launchpad.
 
@@ -50,7 +50,7 @@ Similar project for Akai APC40 where I've discovered brilliant idea of master/sl
 http://empytree.com/projects/jugbeat  
 https://github.com/empytree/jugbeat
 
-Current version is **1.2.1 beta**.  
+Current version is **1.2.2 beta**.  
 Written in Max 5.1.9, tested in Ableton Live 8.2.5.  
 Briefly tested in Max 7.0.3 and Live 9.1.7.  
 Checked in Max 8.0.2 and Live 10.0.6.  
