@@ -1,6 +1,13 @@
 jugbeat change log and release notes
 ====================================
 
+1.2.5 beta - 14 Nov 2026
+----------------------
+
+- add To Loop End flow mode (thanks to Vince Lucia for the idea)
+- link Flow, Beat Duration and Hold settings
+- retain frozen dependencies and add control-graph regression checks
+
 1.2.4 beta - 20 Jun 2022
 ------------------------
 
